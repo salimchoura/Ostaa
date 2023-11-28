@@ -1,0 +1,44 @@
+<!--
+  Name: Salim Choura and Yanxihao Chen
+  Course Name: CSc337
+  Description: html file for the ostaa project.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ostaa</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <script src="./index.js"></script>
+  <h1>Ostaa</h1>
+  <h2>Login</h2>
+  <div>
+    <label>Username</label>
+    <input type="text" id="existing_username">
+  </div>
+  <div>
+    <label>Password</label>
+    <input type="password" id="existing_password">
+  </div>
+
+  <button onclick="Login()">Login</button>
+  <br><br><br>
+  <div id="error_section"></div>
+
+  <h2>Create Account</h2>
+  <div>
+    <label>Username</label>
+    <input type="text" id="new_username">
+  </div>
+  <div>
+    <label>Password</label>
+    <input type="password" id="new_password">
+  </div>
+  <button onclick="addUser()">Create Account</button>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+/**
+    Author: Salim Choura and Yanxiao Chen
+    Course: csc 337
+    Description: This file is a style file for our post.html
+*/
+h1
+{
+    color: rgb(8, 33, 114);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+h2
+{
+    margin-left: 30px;
+}
+
+body
+{
+    background-color: rgb(153, 201, 243);
+}
+
+label
+{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+input
+{
+    position: fixed;
+    left: 120px;
+}
+
+button
+{
+    margin-left: 400px;
+}

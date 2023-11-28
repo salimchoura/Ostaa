@@ -1,0 +1,38 @@
+<!--
+  Name: Salim Choura and Yanxihao Chen
+  Course Name: CSc337
+  Description: html file for the ostaa project.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ostaa</title>
+    <link rel="stylesheet" href="./post.css">
+  </head>
+  <body>
+
+    <h1>Ostaa</h1>
+    <h2>Add a post</h2>
+    <div>
+      <label>Title</label>
+      <input type="text" id="title">
+    </div><br>
+    <div>
+      <label>Description</label>
+      <input type="text" id="desc">
+    </div><br>
+    <div>
+      <label>Price</label>
+      <input type="number" id="price">
+    </div><br>
+
+    <div>
+      <label>Status</label>
+      <input type="text" id="status">
+    </div><br>
+    <input id='image' type="file" name="photo" accept="image/*" required>
+    <button id="post">Create post</button>
+    <script src="./post.js"></script>
+  </body>
+</html>
